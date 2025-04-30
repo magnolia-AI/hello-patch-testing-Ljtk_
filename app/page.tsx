@@ -38,6 +38,15 @@ export default function Home() {
               className="animate-[spin_20s_linear_infinite]"
             />
           </div>
+          <div className="mt-6 mb-6">
+            <Image
+              src="https://storage.googleapis.com/magnolia-storage-dev-test-123/images/7pID-1brYo/image.jpg"
+              alt="Magical Digital Background"
+              width={800}
+              height={450}
+              className="rounded-lg shadow-lg"
+            />
+          </div>
           <p className="mt-6 text-xl max-w-[600px] mx-auto font-bold" style={{color: 'blue'}}>
             !!!PREPARE TO BE AMAZED!!! Make the Magician will BLOW YOUR MIND with his INCREDIBLE magic tricks!!!
           </p>
@@ -97,6 +106,15 @@ export default function Home() {
         <h2 className="wordart text-4xl font-bold text-center mb-10">
           SATISFIED CUSTOMERS!!!
         </h2>
+        <div className="flex justify-center mb-8">
+          <Image
+            src="https://storage.googleapis.com/magnolia-storage-dev-test-123/images/7pID-1brYo/image.jpg"
+            alt="Magical Digital Background"
+            width={600}
+            height={338}
+            className="rounded-lg shadow-lg"
+          />
+        </div>
         <div className="max-w-[800px] mx-auto text-center magic-border p-6">
           <p className="text-xl mb-4" style={{color: 'purple'}}>
             "Make the Magician changed my life!!! His magic is REAL!!! I saw him pull 17 rabbits from his hat!!!" - John D.
@@ -150,3 +168,5 @@ export default function Home() {
     </div>
   )
 }
+
+
